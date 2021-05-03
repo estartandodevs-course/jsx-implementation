@@ -6,10 +6,11 @@ module.exports = {
   entry: path.resolve(__dirname, "./src/index.js"),
   output: {
     filename: "main.js",
+    path: __dirname + "/docs",
   },
   devServer: {
     open: true,
-    contentBase: path.resolve(__dirname, "/dist"),
+    contentBase: path.resolve(__dirname, "/docs"),
   },
   plugins: [
     new HtmlWebpackPlugin({
