@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  width: 100%;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  gap: 32px;
+  align-items: center;
+  flex: 1;
+}
+
+.contentWrapper ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}

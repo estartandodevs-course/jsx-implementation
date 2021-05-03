@@ -1,0 +1,29 @@
+{
+  "name": "jsx-implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "estartando-devs",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.13.12",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  }
+}
